@@ -1,19 +1,15 @@
 package com.feige.weibo;
 
 
-import android.graphics.PorterDuff;
 import android.os.Bundle;
 import android.support.design.widget.TabLayout;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
-import android.text.Layout;
-import android.view.Gravity;
 import android.view.View;
 
 import com.feige.weibo.adapter.MainFragmentPagerAdapter;
-import com.feige.weibo.common.Main_ViewPager;
 import com.feige.weibo.find.FindFragment;
 import com.feige.weibo.home.HomeFragment;
 import com.feige.weibo.mine.MineFragment;
@@ -22,7 +18,7 @@ import java.util.List;
 
 public class MainActivity extends AppCompatActivity implements TabLayout.OnTabSelectedListener {
 
-    private Main_ViewPager mainViewpage;
+    private ViewPager mainViewpage;
     private TabLayout mainTablayout;
 
     private MainFragmentPagerAdapter mainAdapter;
@@ -49,16 +45,13 @@ public class MainActivity extends AppCompatActivity implements TabLayout.OnTabSe
         seupToolbar();
         setupViewPager();
         setupTabLayout();
-
     }
-
-
 
     /**
      * 初始化布局
      */
     private void initView() {
-        mainViewpage = (Main_ViewPager) findViewById(R.id.main_viewpage);
+        mainViewpage = (ViewPager) findViewById(R.id.main_viewpage);
         mainTablayout = (TabLayout) findViewById(R.id.main_tablayout);
     }
 

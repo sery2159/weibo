@@ -42,7 +42,6 @@ public class MineWeiBoFragmentPagerAdapter extends FragmentPagerAdapter {
 
     @Override
     public CharSequence getPageTitle(int position) {
-        Log.d("TAG", "getPageTitle: ");
         return titleList.get(position);
     }
 }

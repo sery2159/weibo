@@ -144,11 +144,11 @@ public class MineFragment extends Fragment {
         if(null == fragmentList)
         {
             fragmentList = new ArrayList<>();
-        }
-        for(int i=0;i<4;i++)
-        {
-            WeiboPageFragment fragments = WeiboPageFragment.newInstance();
-            fragmentList.add(fragments);
+            for(int i=0;i<4;i++)
+             {
+                  WeiboPageFragment fragments = WeiboPageFragment.newInstance();
+                  fragmentList.add(fragments);
+              }
         }
         adapter = new MineWeiBoFragmentPagerAdapter(fm,mContext,fragmentList,titleList);
         mViewpageInMine.setAdapter(adapter);

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<android.support.constraint.ConstraintLayout android:layout_width="match_parent"
+    android:layout_height="500dp"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_account_circle_black_24dp"
+            tools:layout_editor_absoluteY="22dp"
+            tools:layout_editor_absoluteX="24dp"
+            android:id="@+id/wb_img_photo" />
+
+        <TextView
+            android:text="TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            tools:layout_editor_absoluteY="47dp"
+            tools:layout_editor_absoluteX="89dp"
+            android:id="@+id/wb_text_name" />
+
+        <TextView
+            android:text="TextView"
+            android:layout_width="58dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/wb_text_time"
+            tools:layout_editor_absoluteX="89dp"
+            tools:layout_editor_absoluteY="22dp" />
+
+        <TextView
+            android:text="TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:layout_editor_absoluteY="80dp"
+            tools:layout_editor_absoluteX="24dp"
+            android:id="@+id/wb_text_content" />
+
+
+
+        <!--<cn.bingoogolapple.photopicker.widget.BGANinePhotoLayout-->
+        <!--android:id="@+id/npl_item_moment_photos"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--tools:layout_editor_absoluteY="105dp"-->
+        <!--tools:layout_editor_absoluteX="24dp" />-->
+        <WebView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:layout_editor_absoluteY="105dp"
+            tools:layout_editor_absoluteX="24dp"
+            android:id="@+id/webView"></WebView>
+
+
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/ic_launch_black_24dp"
+                tools:layout_editor_absoluteY="138dp"
+                tools:layout_editor_absoluteX="33dp"
+                android:id="@+id/imageView3" />
+            <TextView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                tools:layout_editor_absoluteY="142dp"
+                android:id="@+id/textView5"
+                app:layout_constraintLeft_toRightOf="@+id/imageView4"
+                tools:layout_editor_absoluteX="320dp" />
+            <view
+                android:layout_width="1dp"
+                android:layout_height="20dp"
+                tools:layout_editor_absoluteY="138dp"
+                tools:layout_editor_absoluteX="100dp" />
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/ic_comment_24dp"
+                tools:layout_editor_absoluteY="138dp"
+                tools:layout_editor_absoluteX="143dp" />
+            <TextView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                tools:layout_editor_absoluteY="138dp"
+                tools:layout_editor_absoluteX="163dp" />
+            <view
+                android:layout_width="1dp"
+                android:layout_height="20dp"
+                tools:layout_editor_absoluteX="220dp"
+                tools:layout_editor_absoluteY="138dp" />
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/ic_thumb_up_black_24dp"
+                tools:layout_editor_absoluteY="142dp"
+                android:id="@+id/imageView4"
+                tools:layout_editor_absoluteX="300dp" />
+            <TextView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                tools:layout_editor_absoluteY="138dp"
+                android:id="@+id/textView4"
+                tools:layout_editor_absoluteX="53dp" />
+
+
+
+
+
+    </android.support.constraint.ConstraintLayout>
+
+
+
