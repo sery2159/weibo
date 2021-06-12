@@ -6,7 +6,7 @@ import android.os.Bundle;
 import android.text.TextUtils;
 import android.widget.Toast;
 
-import com.feige.weibo.MainActivity;
+import com.feige.weibo.base.MainActivity;
 import com.feige.weibo.R;
 import com.feige.weibo.util.TipsUtil;
 import com.sina.weibo.sdk.auth.AuthInfo;
@@ -14,8 +14,6 @@ import com.sina.weibo.sdk.auth.Oauth2AccessToken;
 import com.sina.weibo.sdk.auth.WeiboAuthListener;
 import com.sina.weibo.sdk.auth.sso.SsoHandler;
 import com.sina.weibo.sdk.exception.WeiboException;
-
-import okhttp3.internal.Platform;
 
 public class AuthorActivity extends AppCompatActivity{
 

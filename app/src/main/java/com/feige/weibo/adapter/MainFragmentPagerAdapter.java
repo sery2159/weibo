@@ -1,14 +1,12 @@
 package com.feige.weibo.adapter;
 
 import android.content.Context;
-import android.graphics.drawable.Drawable;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
-import android.support.v4.content.ContextCompat;
 import android.view.View;
 import com.feige.weibo.R;
-import com.feige.weibo.TabLayoutCustomerTab;
+import com.feige.weibo.widget.TabLayoutCustomerTab;
 import java.util.List;
 
 /**

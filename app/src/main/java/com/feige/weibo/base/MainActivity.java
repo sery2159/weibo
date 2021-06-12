@@ -1,4 +1,4 @@
-package com.feige.weibo;
+package com.feige.weibo.base;
 
 
 import android.os.Bundle;
@@ -9,6 +9,7 @@ import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
+import com.feige.weibo.R;
 import com.feige.weibo.adapter.MainFragmentPagerAdapter;
 import com.feige.weibo.find.FindFragment;
 import com.feige.weibo.home.HomeFragment;

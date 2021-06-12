@@ -16,10 +16,9 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.feige.weibo.MainActivity;
+import com.feige.weibo.base.MainActivity;
 import com.feige.weibo.R;
 import com.feige.weibo.adapter.MineWeiBoFragmentPagerAdapter;
-import com.sina.weibo.sdk.auth.AuthInfo;
 
 import java.util.ArrayList;
 import java.util.List;

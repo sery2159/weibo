@@ -31,12 +31,12 @@ dependencies {
     compile 'com.android.support:design:23.4.0'
     compile 'com.android.support:support-v4:23.4.0'
     compile 'com.android.support.constraint:constraint-layout:1.0.0-alpha8'
-    // retrofit2    以上两个版本号要保持一致
-    compile 'com.squareup.retrofit2:converter-gson:2.0.1'
+    // retrofit2   以上两个版本号要保持一致
+    //compile 'com.squareup.retrofit2:converter-gson:2.0.1'
     //gson转换器的依赖
-    compile 'com.squareup.retrofit2:retrofit:2.0.1'
-    compile 'com.squareup.retrofit2:adapter-rxjava:2.0.1'
+    //compile 'com.squareup.retrofit2:retrofit:2.0.1'
     //  retrofit2 为RxJava准备的CallAdapter
+    //compile 'com.squareup.retrofit2:adapter-rxjava:2.0.1'
     //  rxandroid
     compile 'io.reactivex:rxandroid:1.1.0'
     compile 'io.reactivex:rxjava:1.1.0'
@@ -47,10 +47,11 @@ dependencies {
     compile 'com.jph.takephoto:takephoto_library:3.0.0'
     compile files('libs/tbs_sdk.jar')
     compile files('libs/weiboSDKCore_3.1.4.jar')
-
-   // 九宫格图片
+    // 九宫格图片
     compile 'cn.bingoogolapple:bga-adapter:1.1.0@aar'
     compile 'cn.bingoogolapple:bga-photopicker:+@aar'
     // photopicker必须依赖下glide
     compile 'com.github.bumptech.glide:glide:3.7.0'
+    //nohttp
+    compile 'com.yanzhenjie.nohttp:okhttp:1.1.0'
 }

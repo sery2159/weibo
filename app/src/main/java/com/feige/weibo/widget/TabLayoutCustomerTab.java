@@ -1,4 +1,4 @@
-package com.feige.weibo;
+package com.feige.weibo.widget;
 
 import android.content.Context;
 import android.support.v4.app.Fragment;
@@ -8,6 +8,8 @@ import android.view.View;
 import android.widget.FrameLayout;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import com.feige.weibo.R;
 
 import java.util.zip.Inflater;
 
